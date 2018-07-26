@@ -1,0 +1,45 @@
+@media only screen and (max-width: 719px) {
+ 
+    .background-image-horizonte {
+        height: 500px;
+        width: 100%;
+        background-image: url(../kitten-small.png), url(../night.jpg);
+        background-size: 40% auto,  100% 100%;  
+        background-position: center bottom, left top;
+        background-repeat: no-repeat, no-repeat;
+    
+    }
+
+}
+
+@media only screen and (min-width: 720px) {
+ 
+    .background-image-horizonte {
+        height: 500px;
+        width: 100%;
+        background-image: url(../kitten-medium.png), url(../sunny-day.jpg);
+        background-size: 40% auto,  100% 100%;  
+        background-position: center bottom, left top;
+        background-repeat: no-repeat, no-repeat;
+    
+    }
+
+}
+
+@media only screen and (min-width: 960px) {
+ 
+    .background-image-horizonte {
+        height: 500px;
+        width: 100%;
+        background-image: url(../kitten-large.png), url(../dawn.png);
+        background-size: 40% auto,  100% 100%;  
+        background-position: center bottom, left top;
+        background-repeat: no-repeat, no-repeat;
+    
+    }
+
+}
+
+
+
+
